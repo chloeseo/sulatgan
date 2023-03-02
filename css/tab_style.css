@@ -1,0 +1,15 @@
+/*tab*/
+
+#box1>li.on>.box1_1{
+
+	width:100%;
+	padding:20px;
+	box-sizing:border-box;
+	
+
+}
+#box1>li>.box1_1{
+	height:0;
+	overflow:hidden;
+}
+

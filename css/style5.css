@@ -1,0 +1,288 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'NanumSquareNeo-Variable';
+    font-size: 14px;
+    line-height: 22px;
+    color: #333;
+    min-width: 1200px;
+}
+
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#header {
+    height: 120px;
+    margin: 0 auto;
+    width: 1200px;
+    text-align: center;
+    position: relative;
+}
+
+#header .icon {
+    width: 50%
+}
+
+#header .util {
+
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+
+
+#header .util li {
+    float: left;
+}
+
+#header .util li img {
+    padding-top: 10px;
+    width: 40%;
+}
+
+#header .util p {
+    padding: 20px 30px 0 0;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#header .util li a {
+    display: block;
+    color: #F9E6A7;
+    padding: 50px 0 0 0;
+}
+
+#header h1 {
+    text-align: center;
+    padding-top: 10px;   
+}
+#header h1 a{
+    display: block;
+    overflow: hidden;
+    transition: transform 1s;
+}
+#header h1 a:hover{
+    transform: rotateY(180deg);
+}
+.header_right {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    border-bottom: 2px solid #F9E6A7;
+    padding-bottom: 8px;
+}
+
+.header_right form {
+    padding: 70px 50px 0 0;
+}
+
+.header_right form input {
+    outline: none;
+    border: none;
+    font-size: 14px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.header_right img {
+    position: absolute;
+    top: 55px;
+    right: 0;
+    width: 30px;
+}
+
+#gnb_wrap {
+    background-color: #F9E6A7;
+    width: 100%;
+    height: 50px;
+}
+
+.gnb {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.gnb ul {
+    margin: 0 auto;
+    display: inline-block;
+    padding-top: 7px;
+    width: 90%;
+    display: flex;
+    flex-wrap: nowrap;
+    /*기본값!!_줄바꿈못함!!*/
+    flex-direction: row;
+    /*기본값!!_가로정렬!!*/
+    justify-content: space-evenly;
+}
+
+.gnb li {}
+
+.gnb li a {
+    display: block;
+    font-size: 17px;
+    color: #D3452B;
+    padding: 10px 20px;
+}
+
+
+.gnb_bg, .menu_bg,.close_btn{
+    display: none;
+}
+/*banner*/
+#banner{
+    width: 1200px;
+    margin:0 auto;
+    height: 600px;
+    text-align: center;
+    padding-top: 100px;
+}
+/*section1*/
+#section1{
+    width: 1200px;
+    margin:0 auto;
+    padding:50px 0 100px 0;
+    height: 500px;
+    text-align: center;
+}
+
+/*container*/
+#container{
+    background-image: url(../images/store/bg.png);
+}
+#container {
+    width: 1200px;
+    height: 1003px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.contents {
+    width: 800px;
+    height: 430px;
+    position: sticky;
+    top: 100px;
+}
+
+.aside {
+    width: 300px;
+}
+
+.aside div {
+    height: 450px;
+}
+.aside .box1{
+    height: 100px;
+} 
+/*section2*/
+#section2{
+    width: 1200px;
+    margin:0 auto;
+    padding: 100px 0;
+    height: 400px;
+    text-align: center;
+}
+
+#section2 ul li{
+    float: left;
+    width: 40%;
+    padding: 0 5%;
+}
+#section2 iframe{
+    width: 500px;
+    height: 400px;
+}
+/*footer*/
+#footer_wrap {
+    overflow: hidden;
+    background-color:#F9E6A7;
+    margin: 0 auto;
+    padding-bottom: 30px;
+
+}
+.footer_box {
+    width: 1200px;
+    margin: 0 auto;
+}
+.footer {
+    width: 90%;
+    margin: 0 auto;
+    box-sizing: border-box; 
+}
+
+.footer> li:nth-child(1) {
+    padding: 30px 0 0 30px;
+    box-sizing: border-box;
+}
+.footer .footer1 {
+    float: left;
+    width: 25%;
+    color: #fff;
+    padding-top: 30px;
+}
+
+.footer li:nth-child(2){
+    font-size: 13px;
+}
+
+.footer .footer_info {
+    padding: 0 5px;
+    color: #fff;
+}
+
+.footer .footer1 li:nth-child(1) {
+    padding-bottom: 10px;
+}
+.footer .padding_l{
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+
+.footer .footer1 li {
+    padding-bottom: 5px;
+}
+
+.footer .footer1 li a {
+    color: #fff;
+}
+
+.footer .footer1 .padding_b{
+    padding-bottom: 35px;
+}
+.footer .footer1 .us {
+    font-size: 18px;
+    font-weight: 900;
+    color: #fff;
+    display: block;
+}
+
+.footer .footer1 a {
+    display: inline-block;
+}
+
+.footer .footer1 a img {
+    width: 40px;
+    height: 40px;
+    opacity: 0.5;
+}
+
+.footer .footer1 a:hover img {
+    opacity: 1;
+}
